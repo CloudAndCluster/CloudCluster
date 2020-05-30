@@ -7,6 +7,6 @@ ETL script for Freeway Dataset:
 Pymongo Script for Queries:
     <ul><li />query1.py  ----> Count of high speed
     <li />query2.py  ----> Total Volume
-    <li />query4.py  ---->  Average traveltime for peak periods for station Foster NB
-    <li />query5.py  ---->  Average traveltime for peak periods for I-205 Freeway 
+    <li />query4.py  ---->  Average traveltime during peak periods for station Foster NB
+    <li />query5.py  ---->  Average traveltime during peak periods for I-205 Freeway 
     </ul>
