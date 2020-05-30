@@ -43,10 +43,6 @@ with client:
                             {"sameID.starttime": {'$gte' : "2011-09-22T07:00:00"}},
                             {"sameID.starttime": {'$lt':"2011-09-22T09:00:00"}}
                         ]
-                        # {'$and' :[
-                            # {"sameID.starttime": {'$gte' : "2011-09-22T16:00:00"}},
-                            # {"sameID.starttime": {'$lt':"2011-09-22T18:00:00"}}
-                        # ]}  
                     }
                 },
                 {'$group': {'_id': 'null',  'total': {'$avg':"$sameID.speed"}}}
