@@ -1,7 +1,8 @@
 # CloudCluster
 All the scripts for queries and ETL script for data is inside src folder.
+
 ETL script for Freeway Dataset:
-    datasetFinal.py // Extracted the loopdata and stationdata from csv files and transformed it in JSON format.
+    <ul><li />datasetFinal.py ----> Extracted the loopdata and stationdata from csv files and transformed it in JSON format.</ul>
     
 Pymongo Script for Queries:
     <ul><li />query1.py  ----> Count of high speed
