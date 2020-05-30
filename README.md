@@ -1,5 +1,5 @@
 # CloudCluster
-All the scripts for queries and ETL script for data is inside src folder.
+All the scripts for queries and ETL script for data is inside <b>src</b> folder.
 
 ETL script for Freeway Dataset:
     <ul><li />datasetFinal.py ----> Extracted the loopdata and stationdata from csv files and transformed it in JSON format.</ul>
