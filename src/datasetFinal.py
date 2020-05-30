@@ -50,49 +50,7 @@ for h in highway_file:
                     }
                     station["detectors"].append(detector)
             stations.append(station)
-#count =0          
-# for d in detector_file:
-    # # count+=1
-    # loop = {
-        # "detectorid": int(d["detectorid"]),
-        # "loopdata": []
-    # }
-    # loopdata_file = csv.DictReader(open("freeway_loopdata.csv", 'r'))
-    # for ll in loopdata_file:
-        # if d["detectorid"] == ll["detectorid"]:
-            # # print(ll)
-            # speed = ll["speed"]
-            # try:
-                # speed = int(speed)
-            # except:
-                # pass
-            
-            # occupancy = ll["occupancy"]
-            # try:
-                # occupancy = int(occupancy)
-            # except:
-                # pass
-            
-            # volume = ll["volume"]
-            
-            # try:
-                # volume = int(volume)
-            # except:
-                # pass
-            
-            # loopone = {
-                # "starttime": datetime.strptime(ll["starttime"], '%Y-%m-%d %H:%M:%S-%f'),
-                # "volume": volume,
-                # "speed": speed,
-                # "occupancy": occupancy,
-                # "status": int(ll["status"]),
-                # "dqflags": int(ll["dqflags"])
-            # }
-            # loop["loopdata"].append(loopone)
-    
-    # loopdataAll.append(loop)
-
-    
+ 
 loopdata_file = csv.DictReader(open("freeway_loopdata.csv", 'r'))    
 for ll in loopdata_file:
 
