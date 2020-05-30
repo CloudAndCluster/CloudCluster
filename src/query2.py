@@ -34,7 +34,8 @@ with client:
                 ]
 
     for doc in (station.aggregate(pipeline)):
-        print(doc['total'])
+        TotalVolume = doc['total']
+        print("TotalVolume is: {}".format(TotalVolume))
 
       
 
