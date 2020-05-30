@@ -1,4 +1,4 @@
-# CloudCluster
+# Cloud and Cluster
 All the scripts for queries and ETL script for data is inside <b>src</b> folder.
 
 ETL script for Freeway Dataset:
